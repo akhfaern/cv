@@ -12,7 +12,7 @@ const Section = ({ title, className, children }: Props) => {
     <div className={cn("flex flex-col min-w-full", className)}>
       <div className="flex min-w-full items-center">
         <div className="bg-sky-900 text-white font-semibold text-xs rounded-lg p-2">{title}</div>
-        <hr className="border-t border-dotted border-sky-900 ml-2 flex-grow" />
+        <hr className="border-t border-dotted border-sky-900 dark:border-sky-300 ml-2 flex-grow" />
       </div>
       <div>{children}</div>
     </div>

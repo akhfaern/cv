@@ -9,7 +9,7 @@ interface Props {
 const Skill = ({ skillName, rate }: Props) => {
   return (
     <div className="flex justify-between">
-      <span className="font-semibold text-md">{skillName}</span>
+      <span className="font-semibold text-md dark:text-white">{skillName}</span>
       <Rate knowledge={rate} />
     </div>
   );

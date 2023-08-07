@@ -9,13 +9,16 @@ import References from "./components/References";
 import Certificates from "./components/Certificates";
 import Education from "./components/Education";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { useTheme } from "./store/themeStore";
 
 const queryClient = new QueryClient();
 
 function App() {
+  const theme = useTheme((state) => state.theme);
+
   return (
     <QueryClientProvider client={queryClient}>
-      <div className="p-6">
+      <div className="p-6 bg-white dark:bg-slate-800">
         <Header>
           <Container>
             <NameSection />
