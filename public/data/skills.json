@@ -1,0 +1,96 @@
+{
+  "Programming Languages": {
+    "Javascript": 5,
+    "TypeScript": 5,
+    "Python": 5,
+    "Java": 4,
+    "C++": 3,
+    "PHP": 5,
+    "SQL": 5,
+    "Delphi": 5,
+    "Nodejs": 4,
+    "Go": 2,
+    "HTML": 5,
+    "CSS": 5,
+    "GraphQL": 4
+  },
+  "Databases": {
+    "MySQL": 5,
+    "MsSQL": 4,
+    "PostreSQL": 3,
+    "MongoDB": 4,
+    "Neo4j": 3,
+    "Redis": 4,
+    "Sqlite": 4,
+    "Firebase": 3,
+    "Elastic Search": 3
+  },
+  "Project Management": {
+    "JIRA": 5,
+    "Bitbucket": 5,
+    "Github & Gitlab": 4,
+    "SonarQube": 4,
+    "Git": 4
+  },
+  "Methodologies and Techniques": {
+    "Design patterns & Refactoring techniques": 5,
+    "Agile": 4,
+    "SOLID | OOP": 5,
+    "Documentation & Testing Approaches": 4,
+    "Prototyping & UML Design": 4
+  },
+  "DevOps": {
+    "AWS": 3,
+    "Apache Kafka": 3,
+    "Docker": 3,
+    "Linux": 4,
+    "Windows": 5
+  },
+  "Frameworks & Libraries": {
+    "React": 5,
+    "ReactNative": 4,
+    "NextJS": 4,
+    "Bootstrap": 4,
+    "Tailwind": 4,
+    "Material-UI": 5,
+    "Styled Components": 5,
+    "TanStack Query": 4,
+    "Redux": 5,
+    "Zustand": 5,
+    "shadcn": 4,
+    "Laravel": 5,
+    "JQuery": 5,
+    "Flask": 5,
+    "AIOHTTP": 4,
+    "FastAPI": 5,
+    "Pydantic": 5,
+    "SpringBoot": 4,
+    "Expressjs": 5,
+    "OpenLayers": 5,
+    "Cytoscape.js": 5,
+    "Socket.io": 5,
+    "Mongoose": 4,
+    "Jest": 4,
+    "Axios": 5,
+    "Cors": 5,
+    "Gin": 3,
+    "Fiber": 3,
+    "SASS": 3,
+    "LESS": 3,
+    "OAuth": 4
+  },
+
+  "Development tools": {
+    "PyCharm": 5,
+    "IntelliJ Idea": 5,
+    "Webstorm": 5,
+    "PhpStorm": 5,
+    "Visual Studio Code": 5,
+    "Anroid Studio": 4
+  },
+  "Others": {
+    "Low level programming": 3,
+    "TCP/IP and Networking": 4,
+    "Rest API": 5
+  }
+}

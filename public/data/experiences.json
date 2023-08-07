@@ -1,0 +1,152 @@
+[
+  {
+    "dateRange": "09/2021 - Present",
+    "jobTitle": "Frontend Team Lead",
+    "jobDescription": "DMX/DRX/DDX/DBX/DPX Projects",
+    "companyName": "DataFlowX",
+    "jobType": "Full-time",
+    "achivementList": [
+      "Coded web backends using Python, Flask, FastAPI, Redis, Mongo and TOML",
+      "Coded user interfaces with React and Material-UI",
+      "Managed Projects and Frontend Team using Agile Methods on JIRA, SonarQube and Bickbuket",
+      "Added 12 new features to Java Springboot based project",
+      "Created customer dashboards using React, Material UI and Chartjs",
+      "Created user interfaces to manage linux server specifications",
+      "Created LDAP Auth modules for python",
+      "Sandbox integrations between UI and backend",
+      "Created a windows VPN interface using OpenVPN"
+    ],
+    "techStack": [
+      "Python",
+      "React",
+      "Javascript",
+      "Linux",
+      "Flask",
+      "Pydantic",
+      "Material UI",
+      "Redis",
+      "Mongo",
+      "Jira",
+      "Bicbuket",
+      "Delphi"
+    ]
+  },
+  {
+    "dateRange": "05/2018 - 09/2021",
+    "jobTitle": "Assistant Director of IT Department",
+    "jobDescription": "Smuggling and Organized Crime Ministry",
+    "companyName": "Interior General Directorate of Security",
+    "jobType": "Full-time",
+    "achivementList": [
+      "Deleveloped 2 analytics and 1 mobile application and 6 other softwares for Department of Smuggling and Organized Crime (Text Analytics, Face Recognition, Complex Analytic Queries, Finding Connections on Social Medias.. etc)",
+      "Managed department of 30 people",
+      "Managed 1 data center",
+      "Managed Network of 181 end points and surrounds all of Turkey with 5000 users",
+      "Managed 120 physical servers with 300 virtual servers on vmware",
+      "Managed 20 MsSQL databases of classified informations"
+    ],
+    "techStack": [
+      "Python",
+      "React",
+      "Javascript",
+      "PHP",
+      "Material UI",
+      "Neo4j",
+      "OpenLayers",
+      "MySQL",
+      "MsSQL",
+      "Delphi"
+    ]
+  },
+  {
+    "dateRange": "10/2017 - 05/2018",
+    "jobTitle": "Assistant Director of IT Department",
+    "jobDescription": "Intelligence Ministry",
+    "companyName": "Interior General Directorate of Security",
+    "jobType": "Full-time",
+    "achivementList": [
+      "Worked on a confidential software development"
+    ],
+    "techStack": [
+      "Python",
+      "PHP",
+      "Javascript",
+      "Java"
+    ]
+  },
+  {
+    "dateRange": "05/2014 - 10/2017",
+    "jobTitle": "Senior Software Developer",
+    "jobDescription": "Information Technologies Ministry",
+    "companyName": "Interior General Directorate of Security",
+    "jobType": "Full-time",
+    "achivementList": [
+      "I've coded a map based GIS Application",
+      "I've maintained and upgraded Vehicle Tracking System which was used by 15000 cars"
+    ],
+    "techStack": [
+      "PHP",
+      "Javascript",
+      "MsSQL",
+      "MySQL",
+      "Windows Server",
+      "Delphi",
+      "OpenLayers"
+    ]
+  },
+  {
+    "dateRange": "02/2010 - 05/2014",
+    "jobTitle": "Senior Software Developer",
+    "jobDescription": "Istanbul Information Technologies Department",
+    "companyName": "Interior General Directorate of Security",
+    "jobType": "Full-time",
+    "achivementList": [
+      "Coded Criminal Lab Software",
+      "Coded Turkey's first citizen Enquery Mobile Software",
+      "Coded Personnel Software",
+      "Coded Map based Crime Analytic Software"
+    ],
+    "techStack": [
+      "PHP",
+      "Javascript",
+      "JQuery",
+      "MySQL",
+      "Windows Server",
+      "Delphi"
+    ]
+  },
+  {
+    "dateRange": "07/2006 - 08/2009",
+    "jobTitle": "Software Developer",
+    "jobDescription": "Istanbul Riot Police Department",
+    "companyName": "Interior General Directorate of Security",
+    "jobType": "Full-time",
+    "achivementList": [
+      "Coded Turkey's first riot police planning software",
+      "Coded storage management software"
+    ],
+    "techStack": [
+      "Delphi",
+      "MySQL"
+    ]
+  },
+  {
+    "dateRange": "01/2000 - 07/2006",
+    "jobTitle": "Junior Software Developer",
+    "jobDescription": "Student",
+    "companyName": "Interior General Directorate of Security",
+    "jobType": "Full-time",
+    "achivementList": [
+      "Coded Student Exam Evaluation Software ",
+      "Coded some network based application"
+    ],
+    "techStack": [
+      "Delphi",
+      "PHP",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "MySQL"
+    ]
+  }
+]
