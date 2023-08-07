@@ -1,5 +1,6 @@
 import React from "react";
 import Rate from "./Rate";
+import { useTranslation } from "react-i18next";
 
 interface Props {
   skillName: string;
@@ -7,9 +8,11 @@ interface Props {
 }
 
 const Skill = ({ skillName, rate }: Props) => {
+  const { t } = useTranslation();
+
   return (
     <div className="flex justify-between">
-      <span className="font-semibold text-md dark:text-white">{skillName}</span>
+      <span className="font-semibold text-md dark:text-white">{t(skillName)}</span>
       <Rate knowledge={rate} />
     </div>
   );

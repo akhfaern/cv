@@ -10,44 +10,53 @@ import Certificates from "./components/Certificates";
 import Education from "./components/Education";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { useTheme } from "./store/themeStore";
+import { cn } from "./lib/utils";
+import Navbar from "./components/header/Navbar";
+import { useTranslation } from "react-i18next";
 
 const queryClient = new QueryClient();
 
 function App() {
   const theme = useTheme((state) => state.theme);
+  const { t } = useTranslation();
 
   return (
     <QueryClientProvider client={queryClient}>
-      <div className="p-6 bg-white dark:bg-slate-800">
-        <Header>
+      <div className={cn(theme)}>
+        <div className="bg-white dark:bg-slate-800">
+          <Header>
+            <Container>
+              <Navbar />
+            </Container>
+            <Container>
+              <NameSection />
+              <Links />
+            </Container>
+          </Header>
           <Container>
-            <NameSection />
-            <Links />
+            <Section title={t("SKILLS, TOOLS & PLATFORMS")}>
+              <Skills />
+            </Section>
           </Container>
-        </Header>
-        <Container>
-          <Section title="SKILLS, TOOLS & PLATFORMS">
-            <Skills />
-          </Section>
-        </Container>
-        <Container>
-          <Section title="EXPERIENCES">
-            <Experiences />
-          </Section>
-        </Container>
-        <Container>
-          <div className="grid grid-cols-3 gap-4 w-full">
-            <Section title="REFERENCES">
-              <References />
+          <Container>
+            <Section title={t("EXPERIENCES")}>
+              <Experiences />
             </Section>
-            <Section title="CERTIFICATES">
-              <Certificates />
-            </Section>
-            <Section title="EDUCATION">
-              <Education />
-            </Section>
-          </div>
-        </Container>
+          </Container>
+          <Container>
+            <div className="grid grid-cols-3 gap-4 w-full">
+              <Section title={t("REFERENCES")}>
+                <References />
+              </Section>
+              <Section title={t("CERTIFICATES")}>
+                <Certificates />
+              </Section>
+              <Section title={t("EDUCATION")}>
+                <Education />
+              </Section>
+            </div>
+          </Container>
+        </div>
       </div>
     </QueryClientProvider>
   );

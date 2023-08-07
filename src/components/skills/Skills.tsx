@@ -2,8 +2,10 @@ import React from "react";
 import SkillSection from "./SkillSection";
 import { useQuery } from "@tanstack/react-query";
 import { getSkills } from "../../lib/api";
+import { useTranslation } from "react-i18next";
 
 const Skills = () => {
+  const { t } = useTranslation();
   const { isLoading, isError, data } = useQuery({ queryKey: ["skills"], queryFn: getSkills });
 
   if (isLoading) {
@@ -23,7 +25,7 @@ const Skills = () => {
   return (
     <div className="columns-2 gap-4">
       {skillSections.map((section: string, index: number) => (
-        <SkillSection title={section} key={`skill-section-${index}`} skills={getSkillList(section)} />
+        <SkillSection title={t(section)} key={`skill-section-${index}`} skills={getSkillList(section)} />
       ))}
     </div>
   );
