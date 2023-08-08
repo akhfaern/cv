@@ -1,0 +1,23 @@
+{
+  "Frontend Team Lead": "Frontend Takım Lideri",
+  "Assistant Director of IT Department": "Bilgi Teknolojileri Şube Müdür Yardımcısı",
+  "Interior General Directorate of Security": "İçişleri Bakanlığı EGM",
+  "Smuggling and Organized Crime Ministry": "KOM Daire Başkanlığı",
+  "Intelligence Ministry": "İstihbarat Daire Başkanlığı",
+  "Information Technologies Ministry": "Bilgi Teknolojileri Daire Başkanlığı",
+  "Istanbul Information Technologies Department": "İstanbul EM Bilgi Teknolojileri Şube Müdürlüğü",
+  "Istanbul Riot Police Department": "Istanbul Çevik Kuvvet Şube Müdürlüğü",
+  "Student": "Öğrenci",
+  "Full-time": "Tam Zamanlı",
+  "POLICE ACADEMY": "POLİS AKADEMİSİ",
+  "DMX/DRX/DDX/DBX/DPX Projects": "DMX/DRX/DDX/DBX/DPX Projeleri",
+  "Coded web backends using Python, Flask, FastAPI, Redis, Mongo and TOML": "Python, Flask, FastAPI, Redis, Mongo and TOML kullanarak web backendleri kodladım.",
+  "Coded user interfaces with React and Material-UI": "React and Material-UI kullanarak UI ları kodladım.",
+  "Managed Projects and Frontend Team using Agile Methods on JIRA, SonarQube and Bickbuket": "Agile metodolojisi ileJIRA, SonarQube ve Bickbuket kullanarak projeleri ve Frontend ekibini yönettim",
+  "Added 12 new features to Java Springboot based project": "Java Springboot kullanarak yapılmış projeye 12 yeni modül ve özellik ekledim",
+  "Created customer dashboards using React, Material UI and Chartjs": "React, Material UI ve Chartjs kullanarak müşteri dashboardlarını dizayn ettim",
+  "Created user interfaces to manage linux server specifications": "Linux serverların yönetimi için modül geliştirdim",
+  "Created LDAP Auth modules for python": "Python projeleri için LDAP Auth paketi geliştirdim",
+  "Sandbox integrations between UI and backend": "UI ve backend ile sandbox entegrasyonu yaptım",
+  "Created a windows VPN interface using OpenVPN": "OpenVPN tabanlı windows VPN client geliştirdim"
+}

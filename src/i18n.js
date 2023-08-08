@@ -1,5 +1,6 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
+import dict from "./dict.tr.json";
 
 const resources = {
   tr: {
@@ -16,6 +17,8 @@ const resources = {
       "Frameworks & Libraries": "Frameworkler ve Kütüphaneler",
       "Development tools": "Geliştirme Araçları",
       Others: "Diğer",
+      "Tech Stack": "Teknoloji Listesi",
+      ...dict,
     },
   },
 };
