@@ -1,6 +1,6 @@
 # This is my Curriculum Vitae
 
-_I've tried to use as much tech as possible in this small project_
+_I've tried to use as much library/tech as possible in this small project_
 
 ## Tech Stack
 
